@@ -11,6 +11,8 @@ import { HeroesModule } from './heroes/heroes.module';
 // import { HeroComponent } from './heroes/components/hero/hero.component';
 // import { ListComponent } from './heroes/components/list/list.component';
 
+import { DbzModule } from './dbz/dbz.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,8 @@ import { HeroesModule } from './heroes/heroes.module';
     BrowserModule,
     AppRoutingModule,
     CounterModule,
-    HeroesModule
+    HeroesModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
